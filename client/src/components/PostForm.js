@@ -30,6 +30,10 @@ function PostForm() {
         }
       })
       values.body = ''
+    },
+    // Code I added - not included in video:
+    onError(err) {
+      console.log(err)
     }
   })
 
